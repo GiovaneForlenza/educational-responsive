@@ -1,0 +1,143 @@
+@import url(./global.css);
+
+#navigation-wrapper {
+  padding: 0 32px;
+  height: 56px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0 0px 16px 16px;
+}
+
+#hero-section-wrapper h2 {
+  text-align: center;
+}
+
+.features-container,
+.popular-course-wrapper {
+  width: 288px;
+  height: 210px;
+  gap: 16px;
+}
+
+.features-container .text span,
+.popular-course-wrapper .text span {
+  display: block;
+  text-align: center;
+}
+
+#learn-now-wrapper {
+  align-items: flex-start;
+}
+#learn-now-wrapper .img {
+  margin: auto;
+  width: 100%;
+  scale: 1;
+}
+
+#learn-now-wrapper .img img {
+  width: 100%;
+}
+
+#learn-now-wrapper h3 {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.teacher-container-wrapper {
+  width: 230px;
+  height: fit-content;
+}
+.teacher-container-wrapper .text {
+  gap: 4px;
+}
+
+.teacher-container-wrapper .text span {
+  text-align: center;
+  display: block;
+}
+
+.popular-course-wrapper {
+  height: 280px;
+}
+.popular-course-wrapper .img {
+  border-radius: 500px;
+  border: 3px var(--color-brand-yellow) solid;
+  padding: 16px;
+}
+.popular-course-wrapper img {
+  width: 55;
+  scale: 1;
+}
+
+.review-wrapper {
+  min-width: 280px;
+  position: relative;
+  top: -50px;
+}
+.review-wrapper .img {
+  position: relative;
+  top: 51px;
+  left: -50px;
+  transform: translate(50%, 0);
+}
+.review-wrapper .container {
+  padding-top: 50px;
+  height: 200px;
+}
+
+.review-wrapper .container .text {
+  gap: 4px;
+}
+.review-wrapper .container .text span {
+  text-align: center;
+}
+
+#horizontal-carrousel {
+  width: 100%;
+  overflow-x: scroll;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+#contact-us-wrapper {
+  background: var(--color-containers-contact-background);
+  color: white;
+}
+#contact-us-wrapper .text-section-header {
+  color: white;
+}
+#contact-us-wrapper .img,
+#contact-us-wrapper img {
+  width: 100%;
+}
+
+#contact-us-wrapper form {
+  width: 100%;
+}
+
+#contact-us-wrapper form input {
+  margin: 4px 0;
+  height: 55px;
+  padding: 24px 8px;
+  box-sizing: border-box;
+  border-radius: var(--bd-radius);
+  border: 1px solid var(--color-containers-container-border);
+  width: 100%;
+}
+
+#contact-us-wrapper form input#message {
+  height: 185px !important;
+}
+
+#contact-us-wrapper form input#message::-webkit-input-placeholder {
+  position: absolute;
+  top: 16px;
+  left: 8px;
+}
+
+form .cta-button {
+  width: 100%;
+  text-align: center;
+  
+}

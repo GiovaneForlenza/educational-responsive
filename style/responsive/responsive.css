@@ -1,0 +1,35 @@
+@import url(../global.css);
+
+@media only screen and (min-width: 320px) {
+  body {
+    /* background: #f00; */
+  }
+  .cta-button{
+   width: 172px;
+  }
+}
+@media only screen and (min-width: 480px) {
+  body {
+    background: #0f0;
+  }
+}
+@media only screen and (min-width: 770px) {
+  body {
+    background: #00f;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  body {
+    background: #ff0;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  body {
+    background: #0ff;
+  }
+}
+@media only screen and (min-width: 1730px) {
+  body {
+    background: #0fc;
+  }
+}

@@ -1,0 +1,121 @@
+:root {
+  /** Colors */
+
+  /*? Containers */
+  --color-containers-body-background: #fafafa;
+  --color-containers-container-background: #fff;
+  --color-containers-container-border: #ddd;
+  --color-containers-contact-background: #323230;
+
+  /*? Brand */
+  --color-brand-yellow: #ffc727;
+  --color-brand-dark-yellow: #dd7b02;
+  --color-brand-purple: #d091dd;
+
+  /*? Text */
+  --color-text-header: #121212;
+  --color-text-body: #202022;
+  --color-text-navigation: #121212a1;
+  --color-text-placeholder: #12121280;
+
+  /** Sizing */
+
+  /*? Text */
+  /* -size-text-display-header: 45px; */
+  /* -size-text-display-header-mobile-xs: 32px; */
+  /* -size-text-section-header: 24px; */
+  /* -size-text-container-header: 22px; */
+  /* -size-text-navigation-menu: 20px; */
+  --size-text-body-base: 16px;
+  --size-text-body-small: 14px;
+  --size-text-body-helper: 12px;
+
+  --shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.03);
+
+  --bd-radius: 5px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.wrapper{
+ padding: 32px 16px;
+ gap: 24px
+}
+
+.container {
+  background: var(--color-containers-container-background);
+  border: 1px solid var(--color-containers-container-border);
+  box-shadow: var(--shadow);
+  border-radius: var(--bd-radius);
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.f-vertical{
+ flex-direction: column;
+}
+.f-horizontal{
+ flex-direction: row;
+}
+
+.text-display-header {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--color-text-header);
+  text-align: center;
+  text-transform: uppercase;
+}
+.text-display-header-mobile-xs {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-text-header);
+  text-align: center;
+}
+.text-section-header {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-text-header);
+  text-align: center;
+}
+.text-container-header {
+  font-size: 22px;
+  color: var(--color-text-header);
+  font-weight: 600;
+  text-align: center;
+}
+.text-body {
+  font-size: var(--size-text-body-base);
+}
+
+.cta-button {
+  font-size: 16px;
+  font-weight: 700;
+  background-color: var(--color-brand-yellow);
+  color: var(--color-text-header);
+  padding: 10px 16px;
+  text-align: center;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: var(--bd-radius);
+}
+.navigation-menu-selected {
+  color: var(--color-brand-purple);
+}
+.navigation-menu {
+  color: var(--color-text-navigation);
+  font-size: var(--size-text-navigation-menu);
+}
