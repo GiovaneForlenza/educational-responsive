@@ -6,6 +6,8 @@
   align-items: center;
   justify-content: space-between;
   border-radius: 0 0px 16px 16px;
+  border: 1px solid #000;
+  max-width: 900 !important;
 }
 
 #hero-section-wrapper h2 {

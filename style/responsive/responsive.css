@@ -1,35 +1,126 @@
 @import url(../global.css);
 
 @media only screen and (min-width: 320px) {
-  body {
-    /* background: #f00; */
+  #hero-section-wrapper #subheading {
+    max-width: 590px;
   }
-  .cta-button{
-   width: 172px;
+  .text-display-header {
+    font-size: 32px;
+  }
+  .cta-button {
+    width: 172px;
+  }
+
+  #learn-now-wrapper .flex-group {
+    max-width: 590px;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  #teachers-containers-wrapper.flex,
+  #popular-courses-containers-wrapper.flex {
+    flex-direction: column;
+  }
+
+  #contact-us-wrapper .flex-group {
+    flex-direction: column;
   }
 }
+
 @media only screen and (min-width: 480px) {
-  body {
-    background: #0f0;
+  #learn-now-wrapper .img,
+  #contact-us-wrapper .img {
+    max-width: 382px;
   }
 }
+
 @media only screen and (min-width: 770px) {
-  body {
-    background: #00f;
+  #features-wrapper {
+    flex-direction: row;
+  }
+
+  #learn-now-wrapper .flex-group {
+    max-width: 100%;
+    margin: 0;
+    flex-direction: row;
+  }
+  #learn-now-wrapper .flex-group .flex {
+    align-self: start;
+    width: 60%;
+  }
+
+  #learn-now-wrapper .flex-group.flex {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  #learn-now-wrapper .flex-group .flex.f-vertical {
+    margin: auto;
+  }
+  #learn-now-wrapper .flex-group .flex .text-section-header {
+    text-align: left;
+  }
+  #learn-now-wrapper .flex-group .img {
+    width: 40%;
+  }
+  #learn-now-wrapper .flex-group .flex .cta-button {
+    max-width: 150px;
+  }
+
+  #learn-now-wrapper .text-section-header,
+  #learn-now-wrapper .text-body {
+    margin: auto;
+  }
+
+  #teachers-containers-wrapper.flex,
+  #popular-courses-containers-wrapper.flex {
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .teacher-container-wrapper,
+  .popular-course-wrapper {
+    min-width: 40%;
+    min-height: 307px;
+  }
+
+  #contact-us-wrapper .flex-group {
+    flex-direction: row;
   }
 }
 @media only screen and (min-width: 1025px) {
-  body {
-    background: #ff0;
+  .teacher-container-wrapper {
+    min-width: 220px;
+    max-width: 230px;
+  }
+  #popular-courses-containers-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+
+  .review-wrapper {
+    width: 350px;
+  }
+
+  form {
+    max-width: 500px;
   }
 }
 @media only screen and (min-width: 1440px) {
-  body {
-    background: #0ff;
+  #horizontal-carrousel {
+    width: fit-content !important;
+    margin: auto;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
   }
 }
 @media only screen and (min-width: 1730px) {
-  body {
-    background: #0fc;
-  }
 }
